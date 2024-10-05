@@ -22,7 +22,6 @@ public class ReverseNumber {
             } else {
                 System.out.println("The Number is not palindrome");
             }
-
         }
     }
 }
