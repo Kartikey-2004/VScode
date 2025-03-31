@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      .container {
+        width: 400px;
+        height: 600px;
+        background-color: blue;
+      }
+      .box {
+        width: 50px;
+        height: 50px;
+        /* animation-name: move;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        animation-direction: alternate-reverse; */
+        /* animation: move 3s cubic-bezier(0.19, 1, 0.22, 1) 1s infinite alternate-reverse; */
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: move2 3s, move 3s 3s, move 3s 6s reverse,
+          move2 3s 9s infinite alternate-reverse;
+      }
+      @keyframes move {
+        from {
+          background-color: rgba(0, 255, 115, 0.734);
+        }
+        to {
+          background-color: yellow;
+          transform: translateX(500px);
+        }
+      }
+      @keyframes move2 {
+        0% {
+          background-color: red;
+          transform: rotate(100deg);
+        }
+        50% {
+          background-color: yellow;
+          transform: rotate(200deg);
+        }
+        100% {
+          background-color: green;
+          transform: rotate(300deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
