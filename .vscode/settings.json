@@ -1,0 +1,21 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "Airline_Reservation/Airline_Reservation/lib/javafx.base.jar",
+            "Airline_Reservation/Airline_Reservation/lib/javafx.controls.jar",
+            "Airline_Reservation/Airline_Reservation/lib/javafx.graphics.jar",
+            "Airline_Reservation/Airline_Reservation/lib/javafx.media.jar",
+            "Airline_Reservation/Airline_Reservation/lib/javafx.swing.jar",
+            "Airline_Reservation/Airline_Reservation/lib/javafx.web.jar",
+            "Airline_Reservation/Airline_Reservation/lib/jdk.jsobject.jar",
+            "Airline_Reservation/Airline_Reservation/lib/jfx.incubator.input.jar",
+            "Airline_Reservation/Airline_Reservation/lib/jfx.incubator.richtext.jar"
+        ],
+        "exclude": [
+            "Airline_Reservation/Airline_Reservation/lib/javafx-swt.jar",
+            "Airline_Reservation/Airline_Reservation/lib/javafx.fxml.jar"
+        ]
+    },
+    "java.debug.settings.onBuildFailureProceed": true
+}
