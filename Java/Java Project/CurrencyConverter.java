@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class CurrencyConverter {
+
     public static void main(String[] args) {
         System.out.println("1 Rupee");
         System.out.println("2 Euro");
@@ -12,10 +13,14 @@ public class CurrencyConverter {
             System.out.println("Enter the Amount");
             Double amount = sc.nextDouble();
             switch (choice) {
-                case 1 -> Rupee_to_other(amount);
-                case 2 -> Euro_to_other(amount);
-                case 3 -> Dollar_to_other(amount);
-                default -> System.out.println("Invalid choice");
+                case 1 ->
+                    Rupee_to_other(amount);
+                case 2 ->
+                    Euro_to_other(amount);
+                case 3 ->
+                    Dollar_to_other(amount);
+                default ->
+                    System.out.println("Invalid choice");
             }
         }
     }
@@ -33,7 +38,7 @@ public class CurrencyConverter {
         System.out.println(amt + " Rupee = " + (0.0111 * amt) + " Euro");
         System.out.println();
     }
-    
+
     public static void Euro_to_other(Double amt) {
         System.out.println("1 Euro = " + 89.9002 + " Rupee");
         System.out.println();

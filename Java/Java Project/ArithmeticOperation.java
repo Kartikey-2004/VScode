@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class ArithmeticOperation {
+
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("1 ADDITION");
@@ -36,7 +37,8 @@ public class ArithmeticOperation {
                     int MODULUS = A % B;
                     System.out.println(MODULUS);
                 }
-                default -> System.out.println("ERROR");
+                default ->
+                    System.out.println("ERROR");
             }
         }
     }

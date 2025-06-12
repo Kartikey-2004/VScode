@@ -1,8 +1,10 @@
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
 
 public class AgeIdentifier {
+
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter your Birth Date (YYYY-MM-DD) : ");
