@@ -1,0 +1,84 @@
+[
+    {
+        "type": "human",
+        "data": {
+            "content": "my name is Kartikey",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "It's nice to meet you, Kartikey!  Is there anything I can help you with today?",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "prompt_feedback": {
+                    "block_reason": 0,
+                    "safety_ratings": []
+                },
+                "finish_reason": "STOP",
+                "safety_ratings": []
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d2680ff0-2e8e-4857-9117-503590446034-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 13,
+                "output_tokens": 24,
+                "total_tokens": 37,
+                "input_token_details": {
+                    "cache_read": 0
+                }
+            }
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "Hi! My name is Kartikey. What is the capital of India? What is my name?",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null,
+            "example": false
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "The capital of India is New Delhi.  Your name is Kartikey.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "prompt_feedback": {
+                    "block_reason": 0,
+                    "safety_ratings": []
+                },
+                "finish_reason": "STOP",
+                "safety_ratings": []
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--66ab9f68-1e7a-40b7-a687-b4de4d81b061-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 28,
+                "output_tokens": 17,
+                "total_tokens": 45,
+                "input_token_details": {
+                    "cache_read": 0
+                }
+            }
+        }
+    }
+]

@@ -1,2 +1,4 @@
 Hi i was working on this,
 now i am working on that.
+pip uninstall -y google-generativeai google-ai-generativelanguage langchain-google-genai
+pip install google-generativeai==0.8.5 google-ai-generativelanguage==0.6.15 langchain-google-genai
