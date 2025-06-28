@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class Q14 {
+public class Q_14 {
 
     public String commom_fx(String[] strs) {
         Arrays.sort(strs);

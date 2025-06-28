@@ -1,7 +1,7 @@
 
 import java.util.Stack;
 
-public class Q20 {
+public class Q_20 {
 
     public boolean isvalid(String s) {
         Stack<Character> st = new Stack<>();

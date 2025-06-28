@@ -1,5 +1,5 @@
 
-public class Q26 {
+public class Q_26 {
 
     public int rem_dub(int[] num) {
         int i = 0;
